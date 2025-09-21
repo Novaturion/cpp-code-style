@@ -15,6 +15,175 @@ ij_smart_tabs = false
 ij_visual_guides = 
 ij_wrap_on_typing = false
 
+# Microsoft .NET properties
+csharp_preferred_modifier_order = public, private, protected, internal, file, new, static, abstract, virtual, sealed, readonly, override, extern, unsafe, volatile, async, required:suggestion
+csharp_style_prefer_utf8_string_literals = true:suggestion
+csharp_style_var_elsewhere = true:suggestion
+csharp_style_var_for_built_in_types = true:suggestion
+csharp_style_var_when_type_is_apparent = true:suggestion
+dotnet_naming_rule.local_functions_rule.import_to_resharper = True
+dotnet_naming_rule.local_functions_rule.resharper_description = Local functions
+dotnet_naming_rule.local_functions_rule.resharper_guid = 76f79b1e-ece7-4df2-a322-1bd7fea25eb7
+dotnet_naming_rule.local_functions_rule.severity = warning
+dotnet_naming_rule.local_functions_rule.style = lower_camel_case_style_1
+dotnet_naming_rule.local_functions_rule.symbols = local_functions_symbols
+dotnet_naming_rule.private_constants_rule.import_to_resharper = True
+dotnet_naming_rule.private_constants_rule.resharper_description = Constant fields (private)
+dotnet_naming_rule.private_constants_rule.resharper_guid = 236f7aa5-7b06-43ca-bf2a-9b31bfcff09a
+dotnet_naming_rule.private_constants_rule.severity = warning
+dotnet_naming_rule.private_constants_rule.style = lower_camel_case_style
+dotnet_naming_rule.private_constants_rule.symbols = private_constants_symbols
+dotnet_naming_rule.private_static_readonly_rule.import_to_resharper = True
+dotnet_naming_rule.private_static_readonly_rule.resharper_description = Static readonly fields (private)
+dotnet_naming_rule.private_static_readonly_rule.resharper_guid = 15b5b1f1-457c-4ca6-b278-5615aedc07d3
+dotnet_naming_rule.private_static_readonly_rule.severity = warning
+dotnet_naming_rule.private_static_readonly_rule.style = lower_camel_case_style
+dotnet_naming_rule.private_static_readonly_rule.symbols = private_static_readonly_symbols
+dotnet_naming_style.lower_camel_case_style.capitalization = camel_case
+dotnet_naming_style.lower_camel_case_style.required_prefix = _
+dotnet_naming_style.lower_camel_case_style_1.capitalization = camel_case
+dotnet_naming_symbols.local_functions_symbols.applicable_accessibilities = *
+dotnet_naming_symbols.local_functions_symbols.applicable_kinds = local_function
+dotnet_naming_symbols.local_functions_symbols.resharper_applicable_kinds = local_function
+dotnet_naming_symbols.local_functions_symbols.resharper_required_modifiers = any
+dotnet_naming_symbols.private_constants_symbols.applicable_accessibilities = private
+dotnet_naming_symbols.private_constants_symbols.applicable_kinds = field
+dotnet_naming_symbols.private_constants_symbols.required_modifiers = const
+dotnet_naming_symbols.private_constants_symbols.resharper_applicable_kinds = constant_field
+dotnet_naming_symbols.private_constants_symbols.resharper_required_modifiers = any
+dotnet_naming_symbols.private_static_readonly_symbols.applicable_accessibilities = private
+dotnet_naming_symbols.private_static_readonly_symbols.applicable_kinds = field
+dotnet_naming_symbols.private_static_readonly_symbols.required_modifiers = readonly,static
+dotnet_naming_symbols.private_static_readonly_symbols.resharper_applicable_kinds = readonly_field
+dotnet_naming_symbols.private_static_readonly_symbols.resharper_required_modifiers = static
+dotnet_style_parentheses_in_arithmetic_binary_operators = never_if_unnecessary:none
+dotnet_style_parentheses_in_other_binary_operators = always_for_clarity:none
+dotnet_style_parentheses_in_relational_binary_operators = never_if_unnecessary:none
+dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
+dotnet_style_predefined_type_for_member_access = true:suggestion
+dotnet_style_qualification_for_event = false:suggestion
+dotnet_style_qualification_for_field = false:suggestion
+dotnet_style_qualification_for_method = false:suggestion
+dotnet_style_qualification_for_property = false:suggestion
+dotnet_style_require_accessibility_modifiers = for_non_interface_members:suggestion
+file_header_template = Copyright ${CurrentDate.Year} Ilya "${User.Name}" Podtelezhnikov\n\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at:\n\n\n	http://www.apache.org/licenses/LICENSE-2.0\n\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.
+
+# ReSharper properties
+resharper_align_multiline_binary_expressions_chain = false
+resharper_align_multiline_extends_list = false
+resharper_align_multiline_type_argument = false
+resharper_align_multiline_type_parameter = false
+resharper_align_ternary = none
+resharper_apply_auto_detected_rules = false
+resharper_blank_lines_after_control_transfer_statements = 1
+resharper_blank_lines_after_multiline_statements = 1
+resharper_blank_lines_around_class_definition = 2
+resharper_blank_lines_around_function_declaration = 1
+resharper_blank_lines_around_multiline_case_section = 1
+resharper_blank_lines_around_single_line_function_definition = 1
+resharper_blank_lines_around_single_line_local_method = 1
+resharper_blank_lines_before_block_statements = 1
+resharper_blank_lines_before_control_transfer_statements = 1
+resharper_blank_lines_before_multiline_statements = 1
+resharper_blank_lines_before_single_line_comment = 1
+resharper_cpp_alignment_tab_fill_style = use_tabs_only
+resharper_cpp_blank_lines_around_namespace = 2
+resharper_cpp_brace_style = next_line
+resharper_cpp_empty_block_style = together_same_line
+resharper_cpp_indent_style = tab
+resharper_cpp_insert_final_newline = true
+resharper_cpp_outdent_commas = true
+resharper_cpp_wrap_after_declaration_lpar = true
+resharper_cpp_wrap_after_invocation_lpar = true
+resharper_cpp_wrap_arguments_style = chop_if_long
+resharper_cpp_wrap_parameters_style = chop_always
+resharper_cpp_wrap_ternary_expr_style = chop_always
+resharper_csharp_alignment_tab_fill_style = use_tabs_only
+resharper_csharp_indent_style = tab
+resharper_csharp_max_enum_members_on_line = 1
+resharper_formatter_off_tag = @formatter:off
+resharper_formatter_on_tag = @formatter:on
+resharper_formatter_tags_enabled = true
+resharper_html_indent_style = space
+resharper_indent_class_members_from_access_specifiers = true
+resharper_indent_nested_foreach_stmt = true
+resharper_indent_nested_for_stmt = true
+resharper_indent_nested_lock_stmt = true
+resharper_indent_nested_while_stmt = true
+resharper_indent_preprocessor_directives = normal
+resharper_indent_preprocessor_if = usual_indent
+resharper_indent_preprocessor_other = usual_indent
+resharper_indent_switch_labels = true
+resharper_int_align_comments = true
+resharper_keep_existing_embedded_arrangement = false
+resharper_keep_existing_expr_member_arrangement = false
+resharper_keep_existing_initializer_arrangement = false
+resharper_keep_existing_invocation_parens_arrangement = false
+resharper_keep_existing_switch_expression_arrangement = false
+resharper_line_break_after_colon_in_member_initializer_lists = line_break
+resharper_line_break_after_comma_in_member_initializer_lists = true
+resharper_line_break_before_requires_clause = line_break
+resharper_linkage_specification_indentation = all
+resharper_max_invocation_arguments_on_line = 5
+resharper_member_initializer_list_style = on_single_line
+resharper_nested_ternary_style = expanded
+resharper_place_accessorholder_attribute_on_same_line = false
+resharper_place_field_attribute_on_same_line = false
+resharper_place_simple_case_statement_on_same_line = true
+resharper_place_simple_embedded_block_on_same_line = true
+resharper_resx_indent_style = space
+resharper_resx_max_line_length = 2147483647
+resharper_show_autodetect_configure_formatting_tip = false
+resharper_simple_block_style = line_break
+resharper_simple_case_statement_style = line_break
+resharper_simple_embedded_statement_style = line_break
+resharper_space_before_initializer_braces = true
+resharper_space_before_template_params = false
+resharper_T4_indent_style = space
+resharper_use_indent_from_vs = false
+resharper_vb_indent_style = space
+resharper_wrap_array_initializer_style = chop_if_long
+resharper_wrap_base_clause_style = chop_if_long
+resharper_wrap_before_declaration_rpar = true
+resharper_wrap_before_invocation_rpar = true
+resharper_wrap_before_linq_expression = true
+resharper_wrap_braced_init_list_style = chop_if_long
+resharper_wrap_chained_binary_expressions = chop_if_long
+resharper_wrap_chained_method_calls = chop_if_long
+resharper_wrap_ctor_initializer_style = chop_if_long
+resharper_wrap_enumeration_style = chop_always
+resharper_wrap_property_pattern = chop_always
+resharper_wrap_verbatim_interpolated_strings = chop_if_long
+resharper_xmldoc_indent_style = space
+resharper_xml_indent_style = space
+
+# ReSharper inspection severities
+resharper_arrange_redundant_parentheses_highlighting = hint
+resharper_arrange_this_qualifier_highlighting = hint
+resharper_arrange_type_member_modifiers_highlighting = hint
+resharper_arrange_type_modifiers_highlighting = hint
+resharper_built_in_type_reference_style_for_member_access_highlighting = hint
+resharper_built_in_type_reference_style_highlighting = hint
+resharper_cpp_redundant_empty_declaration_highlighting = warning
+resharper_cpp_too_wide_scope_init_statement_highlighting = none
+resharper_mvc_action_not_resolved_highlighting = warning
+resharper_mvc_area_not_resolved_highlighting = warning
+resharper_mvc_controller_not_resolved_highlighting = warning
+resharper_mvc_masterpage_not_resolved_highlighting = warning
+resharper_mvc_partial_view_not_resolved_highlighting = warning
+resharper_mvc_template_not_resolved_highlighting = warning
+resharper_mvc_view_component_not_resolved_highlighting = warning
+resharper_mvc_view_component_view_not_resolved_highlighting = warning
+resharper_mvc_view_not_resolved_highlighting = warning
+resharper_razor_assembly_not_resolved_highlighting = warning
+resharper_redundant_base_qualifier_highlighting = warning
+resharper_suggest_var_or_type_built_in_types_highlighting = hint
+resharper_suggest_var_or_type_elsewhere_highlighting = hint
+resharper_suggest_var_or_type_simple_types_highlighting = hint
+resharper_web_config_module_not_resolved_highlighting = warning
+resharper_web_config_type_not_resolved_highlighting = warning
+resharper_web_config_wrong_module_highlighting = warning
+
 [*.cs]
 indent_style = space
 
@@ -71,6 +240,7 @@ ij_shell_use_unix_line_separator = true
 
 [{*.c,*.c++,*.cc,*.cp,*.cpp,*.cppm,*.cu,*.cxx,*.ino,*.ixx}]
 indent_style = space
+indent_size = 4
 
 [{*.har,*.json,*.jsonc}]
 indent_size = 2
@@ -153,3 +323,21 @@ ij_yaml_sequence_on_new_line = false
 ij_yaml_space_before_colon = false
 ij_yaml_spaces_within_braces = true
 ij_yaml_spaces_within_brackets = true
+
+[{*.cuh,*.h,*.hh,*.hpp,*.hxx,*.inc,*.inl,*.ipp,*.mpp,*.pch,*.tcc,*.tpp}]
+indent_style = space
+indent_size = 4
+
+[{*.vcxitems,*.vcxproj}]
+indent_style = space
+indent_size = 4
+
+[*.{blockshader,c,c++,c++m,cc,ccm,cginc,compute,cp,cpp,cppm,cs,cu,cuh,cxx,cxxm,fx,fxh,h,h++,hh,hlsl,hlsli,hlslinc,hp,hpp,hxx,icc,inc,inl,ino,ipp,ixx,mpp,mq4,mq5,mqh,mxx,shaderFoundry,tcc,tpp,urtshader,usf,ush}]
+indent_style = tab
+indent_size = tab
+tab_width = 4
+
+[*.{appxmanifest,asax,ascx,aspx,axaml,cshtml,dtd,master,nuspec,paml,razor,resw,resx,skin,vb,xaml,xamlx,xoml,xsd}]
+indent_style = space
+indent_size = 4
+tab_width = 4
